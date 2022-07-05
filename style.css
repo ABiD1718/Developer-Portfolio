@@ -2,6 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#banner {
+    background-image: url(img/fast.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -23,7 +29,7 @@ h1 {
 .half-width img {
     width: 80%;
     height: 90%;
-    margin-top: -20px;
+
 }
 
 .hire-btn {
@@ -33,6 +39,12 @@ h1 {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 h2 {
@@ -47,6 +59,12 @@ h2 {
     padding: 20px;
     border-radius: 10px;
     border-left: 7px solid blue;
+}
+
+.experiences {
+    background-image: url(img/exp.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #style {
